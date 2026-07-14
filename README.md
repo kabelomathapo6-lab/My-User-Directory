@@ -1,11 +1,10 @@
 # User Directory
 
 A small React + TypeScript app that fetches users from an API, lets you search them live,
-and add new ones — built to practise **data fetching**, **forms**, and **controlled components**.
+and add new ones built to practise **data fetching**, **forms**, and **controlled components**.
 
-## 🔗 Live site
-**[ADD YOUR DEPLOYED URL HERE]** — deploy to Vercel/Netlify and paste the link.
-
+## Live site
+**https://my-user-directory.vercel.app/**
 ## Run locally
 ```bash
 npm install
@@ -15,7 +14,7 @@ npm run dev
 ## What it does
 - **Fetches** users from `https://jsonplaceholder.typicode.com/users` and shows each one's
   name, email, and company.
-- A **controlled search input** filters the list by name as you type — no page refresh.
+- A **controlled search input** filters the list by name as you type with no page refresh.
 - Shows **"No users found."** when nothing matches.
 - **Bonus:** a form to add a new user (name + email) that appears at the top of the list instantly.
 
@@ -29,3 +28,4 @@ npm run dev
 
 ## Stack
 Vite · React · TypeScript.
+Engineer Kabelo Mathapo
