@@ -1,14 +1,3 @@
-/* ============================================================
- * App — the User Directory.
- *
- * Pulls the three concepts together:
- *  1. DATA FETCHING — useUsers() loads the list from the API.
- *  2. CONTROLLED COMPONENT — the search box is driven by useState;
- *     its value comes from state and every keystroke updates state.
- *  3. FORMS — the AddUserForm (bonus) adds a user to the top of the
- *     list without a page refresh.
- * ============================================================ */
-
 import { useMemo, useState } from "react";
 import type { User } from "./types.ts";
 import { useUsers } from "./useUsers.ts";
