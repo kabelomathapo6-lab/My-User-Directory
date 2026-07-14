@@ -1,17 +1,3 @@
-/* ============================================================
- * AddUserForm — the bonus form (name + email).
- *
- * This is the "controlled components" concept:
- *  - Each input's `value` is driven by React state (useState).
- *  - Each input's `onChange` writes every keystroke back into state.
- *  So React state is the single source of truth for what's in the
- *  boxes — the DOM never holds its own separate copy.
- *
- * On submit we validate, build a new User, hand it up to the parent,
- * and clear the fields. e.preventDefault() stops the browser's
- * default behaviour of reloading the page on form submit.
- * ============================================================ */
-
 import { useState } from "react";
 import type { User } from "./types.ts";
 
