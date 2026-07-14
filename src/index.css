@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  --indigo: #23255A;
+  --indigo-deep: #191A40;
+  --violet: #5B54C9;
+  --sky: #3AA0FF;
+  --amber: #FFB020;
+  --bg: #F4F5FB;
+  --surface: #FFFFFF;
+  --ink: #1E1F2B;
+  --muted: #6A6C80;
+  --line: #E4E5F0;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3 { font-family: "Fraunces", Georgia, serif; margin: 0; }
+:focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; border-radius: 6px; }
